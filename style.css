@@ -4,8 +4,6 @@
     top: 50%;
 
     padding-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 @keyframes changeBgColor{
@@ -57,9 +55,6 @@
     height: 100px;
 
     background-color: #0099ff;
-
-    margin-left: auto;
-    margin-right: auto;
 
     animation: changeBgColor 2500ms linear 250ms infinite,
     translate 2500ms linear 250ms infinite;
