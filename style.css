@@ -1,0 +1,67 @@
+.main-container{
+    position: absolute;
+    left:40%;
+    top: 50%;
+
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes changeBgColor{
+    0%{
+        background-color: #0099ff;
+    }
+
+    25%{
+        background-color: #008055;
+    }
+
+    50%{
+        background-color: #ffbb00;
+    }
+
+    75%{
+        background-color: rgb(209, 0, 45);
+    }
+
+    100%{
+        background-color: #0099ff;
+    }
+}
+
+@keyframes translate {
+    0%{
+        transform: translate(0, 0);
+    }
+
+    25%{
+        transform: translate(200px, 0);
+    }
+
+    50%{
+        transform: translate(200px , -200px);
+    }
+
+    75%{
+        transform: translate(0 , -200px);
+    }
+    
+    100%{
+        transform: translate(0,0);
+    }
+}
+
+.quadrat{
+    width: 100px;
+    height: 100px;
+
+    background-color: #0099ff;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    animation: changeBgColor 2500ms linear 250ms infinite,
+    translate 2500ms linear 250ms infinite;
+    
+}
